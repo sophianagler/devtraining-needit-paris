@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Record Insert">45d9df95db712010b78d2bfa4b96190b</copied_from>
+        <description>Insert a record into 'x_58872_needit_needit' with the following values:
+When needed =
+and What needed = (empty)
+and Requested for = (empty)
+and Request type = (empty)
+and Requested for email =
+Confirm the record was not inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <snapshot/>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-18 16:18:13</sys_created_on>
+        <sys_id>f39a9bd5db712010b78d2bfa4b96195d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_f39a9bd5db712010b78d2bfa4b96195d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-18 16:25:45</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <test display_value="When needed - Today">7f9a57d5db712010b78d2bfa4b9619e6</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=f39a9bd5db712010b78d2bfa4b96195d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f39a9bd5db712010b78d2bfa4b96195d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-18 16:18:13</sys_created_on>
+        <sys_id>379a9bd5db712010b78d2bfa4b96195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-18 16:18:13</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f39a9bd5db712010b78d2bfa4b96195d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-18 16:18:13</sys_created_on>
+        <sys_id>739a9bd5db712010b78d2bfa4b96195f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-18 16:25:45</sys_updated_on>
+        <value>record_not_inserted</value>
+        <variable display_value="">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f39a9bd5db712010b78d2bfa4b96195d</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-18 16:18:13</sys_created_on>
+        <sys_id>bb9a9bd5db712010b78d2bfa4b96195f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-18 16:25:45</sys_updated_on>
+        <value>u_when_needed=^u_what_needed=^u_requested_for=^u_request_type=^u_requested_for_email=^EQ</value>
+        <variable display_value="">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f39a9bd5db712010b78d2bfa4b96195d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-18 16:18:13</sys_created_on>
+        <sys_id>f79a9bd5db712010b78d2bfa4b96195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-18 16:18:13</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+</record_update>
